@@ -1,2 +1,2 @@
 # Eram
-A Math Application developed by GOODBYE Company
+A Math Website Developed by GOODBYE Company
