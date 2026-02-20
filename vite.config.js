@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-	// base: '/Eram/',
+	base: mode === "production" ? "/Eram/" : "/",
 	plugins: [react(), tailwindcss()],
 	server: {
 		proxy: {
@@ -17,3 +17,4 @@ export default defineConfig({
 		},
 	},
 });
+
