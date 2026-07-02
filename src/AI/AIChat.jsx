@@ -3,7 +3,6 @@ import Chats from "./Chats";
 import SendBox from "./SendBox";
 
 const API_URL = "https://api.openai.com/v1/chat/completions";
-const API_KEY = import.meta.env.VITE_OPENAI_API_KEY = "sk-iUUYRUY5AG968YLYUQv17eXEERjbl7UqpsdhDTOvI7THnJqn"; 
 const MODEL = "gpt-4o";
 
 const SYSTEM_PROMPT = `
@@ -48,10 +47,10 @@ export default function AIChat() {
             const response = await fetch(API_URL, {
                 method: "POST",
                 signal: controller.signal,
-                headers: {
-                    "Content-Type": "application/json",
-                    "Authorization": `Bearer ${API_KEY}`,
-                },
+                // headers: {
+                //     "Content-Type": "application/json",
+                //     "Authorization": `Bearer ${}`,
+                // },
                 body: JSON.stringify({
                     model: MODEL,
                     temperature: 0.2,
