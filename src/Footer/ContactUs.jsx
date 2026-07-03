@@ -26,7 +26,7 @@ export default function ContactUs() {
 					</g>
 				</svg>
 				<p className="text-xl"> : آدرس</p>
-				<p>ایران</p>
+				<p>ایران، خراسان رضوی، نیشابور</p>
 			</div>
 			<div className="flex flex-row-reverse items-center gap-2">
 				<svg
@@ -80,7 +80,7 @@ export default function ContactUs() {
 					</g>
 				</svg>
 				<p className="text-xl"> : تلفن</p>
-				<p>09123456789 - 01234567890</p>
+				<p>+98 915 623 9935</p>
 			</div>
 			<div className="flex flex-row-reverse items-center gap-2">
 				<svg
@@ -131,7 +131,10 @@ export default function ContactUs() {
 					</g>
 				</svg>
 				<p className="text-xl"> : ایمیل</p>
-				<p>eramxmath@gmail.com</p>
+				<div className="flex flex-col">
+					<p>eramxmath@gmail.com</p>
+					<p>alirezagt4x@gmail.com</p>
+				</div>
 			</div>
 		</div>
 	);
