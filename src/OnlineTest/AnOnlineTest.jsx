@@ -38,7 +38,7 @@ export default function AnOnlineTest({
 						<p>{level}</p>
 					</div>
 				</div>
-				<img src="/public/EramIcon.webp" alt="Test" className="md:w-20 w-15" />
+				<img src="/Images/EramIcon.webp" alt="Test" className="md:w-20 w-15" />
 			</div>
 			<div>
 				<Link to={"/OnlineTest/Testing"}>

@@ -8,7 +8,7 @@ export default function AGeneralTest({ id, title, level }) {
 	return (
 		<div className="flex border-2 rounded-2xl p-4 shadow-lg shadow-blue-500 gap-4 sm:justify-between mb-8 sm:mb-0 bg-white">
 			<div>
-				<img src="/images/MathBook.webp" alt="Math book" className="w-30" />
+				<img src="/Images/MathBook.webp" alt="Math book" className="w-30" />
 			</div>
 			<div className="flex flex-col gap-4 w-full">
 				<div className="flex flex-col gap-6 md:ml-6 text-xs sm:text-sm">
