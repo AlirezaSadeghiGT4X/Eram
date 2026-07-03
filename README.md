@@ -1,5 +1,5 @@
 <div align="center">
-<img src="/Images/EramLogo.webp" alt="Eram Math Logo" width="120"/>
+<img src="/public/Images/EramLogo.webp" alt="Eram Math Logo" width="120"/>
 
 # Eram Math
 
