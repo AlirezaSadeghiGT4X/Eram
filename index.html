@@ -12,6 +12,13 @@
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
 </body>
-<script src="/script.js"></script>
+<script>
+  function DropdownHandler() {
+    if (localStorage.getItem("svgClicked") != "true") {
+      localStorage.setItem("dropdown", "none")
+    }
+    localStorage.setItem("svgClicked", "false")
+  }
+</script>
 
 </html>
