@@ -1,16 +1,55 @@
-# React + Vite
+<div align="center">
+<img src="/Images/EramLogo.webp" alt="Eram Math Logo" width="120"/>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Eram Math
 
-Currently, two official plugins are available:
+An interactive online platform for practicing math and taking quizzes, designed for students in grades 7–9 (middle school).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Demo:** [https://eram.pages.dev](https://eram.pages.dev)
 
-## React Compiler
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📖 About the Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Eram Math helps middle school students (grades 7–9) strengthen their math skills through study materials, online exercises, and comprehensive tests. Students can review lessons, practice topics aligned with their curriculum, get instant feedback, and track their progress over time.
+
+Developed by **GOODBYE**.
+
+## ✨ Features
+
+- 📖 (Study Notes): Structured lesson content for each grade and topic
+- 📝(Online Quiz): Quick, topic-based online quizzes
+- 📊(Comprehensive Tests): Full-length practice tests covering multiple topics
+- 🤖(Smart Assistant): AI-powered assistant to help students with questions
+- 💻(Windows Version): A desktop version of the platform, focused mainly on **grade 8** content
+- 🎥(Educational Videos): Video lessons to support learning
+- 📰(Articles): Educational articles and content
+- 📱 Responsive design — the web version is focused mainly on **grade 9** content, and works on both desktop and mobile
+
+## 🛠️ Built With
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- JavaScript
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## 🎯 Target Audience
+
+This project is designed for:
+- Students in grades 7–9 who want to practice math independently
+- Teachers looking for supplementary practice material for their students
+- Parents who want to support their children's math learning at home
+
+## 📄 License
+
+© 2026 GOODBYE. All rights reserved.
+
+This project is shared publicly for demonstration and portfolio purposes only. No part of this code, design, or content may be copied, modified, distributed, or used in any other project without prior written permission from GOODBYE. See the [LICENSE](./LICENSE) file for details.
+
+## 📬 Contact
+
+If you have questions or feedback about the project, feel free to reach out:
+
+- Email: [alirezagt4x@gmail.com](mailto:alirezagt4x@gmail.com)
