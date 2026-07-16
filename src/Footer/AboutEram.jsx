@@ -2,7 +2,7 @@ export default function AboutEram(){
     return(
         <div className="flex flex-col items-center gap-4 mb-6 xl:mb-0">
             <div className="w-60">
-                <img src="/EramFooterLogo.webp" alt="Logo" />
+                <img src="/Images/EramFooterLogo.webp" alt="Logo" />
             </div>
             <div className="flex flex-col items-center justify-center pl-2 text-white">
                 <p>اِرَم (اپلیکیشن محاسبات ریاضی)</p>
